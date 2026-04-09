@@ -38,7 +38,7 @@ Default partitions and replicas for topics defined in `KAFKA_NUM_PARTITIONS` and
 | cluster-test2| 4         | 2      | 2,1      | 2,1  |
 | cluster-test2| 5         | 1      | 1,3      | 1,3  |
 
-1 topic with 6 partitions and a different leader for each partition plus indication of where is the second replica apart the one on the broker
+1 topic with 6 partitions and a different leader for each partition plus indication of where is the second replica apart the one on the leader
 
 **Get offsets in each partition**
 ```bash
