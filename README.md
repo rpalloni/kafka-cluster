@@ -44,7 +44,7 @@ Default partitions and replicas for topics defined in `KAFKA_NUM_PARTITIONS` and
 ```bash
 /opt/kafka/bin/kafka-get-offsets.sh --topic cluster-test2 --bootstrap-server localhost:9092
 ```
-| Topic-Partition-Offset |
+| Topic:Partition:Offset |
 |------------------------|
 | cluster-test2:0:0      |
 | cluster-test2:1:0      |
@@ -64,7 +64,7 @@ kafka testing
 another message
 ```
 
-| Topic-Partition-Offset |
+| Topic:Partition:Offset |
 |------------------------|
 | cluster-test2:0:2      |
 | cluster-test2:1:1      |
