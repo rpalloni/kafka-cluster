@@ -1,4 +1,8 @@
-# Run Kafka Cluster
+# Kafka Cluster
+Instead of a single-node setup, the project provides a "ready-to-use" local multi-broker Kafka environment that mimics a production-like architecture. Kafka UI is also include to ease monitoring and management.
+
+
+## Run
 
 `docker compose up --build`
 
@@ -8,7 +12,7 @@ Each Kafka container binds `PLAINTEXT://0.0.0.0:9092` internally.
 `nc -z localhost 9092` confirms the broker socket is listening,  
 which happens ~30-60s after container start (KRAFT cluster formation time).
 
-# Kafka CLI
+## Kafka CLI
 
 You can use any broker as bootstrap broker to access the cluster:
 
